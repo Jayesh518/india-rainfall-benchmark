@@ -222,5 +222,5 @@ scripts that fetch data. See [`data/README.md`](data/README.md) for required att
 Builds on [BharatBench](https://github.com/MASLABnitrkl/BharatBench) (Choudhury, Panda & Mukherjee, NIT Rourkela — [arXiv:2405.07534](https://arxiv.org/abs/2405.07534)) and [IndiaWeatherBench](https://github.com/tung-nd/IndiaWeatherBench) (Nguyen et al., UCLA — [arXiv:2509.00653](https://arxiv.org/abs/2509.00653)), which curated IMDAA for machine learning and established graph-model baselines over India.
 
 <!-- AUTO:UPDATED:START -->
-<sub>Auto-generated sections last updated **2026-11-09 20:40 UTC** from commit [`9e94dd7`](../../commit/9e94dd7) by `scripts/update_readme.py`.</sub>
+<sub>Auto-generated sections last updated **2026-11-09 20:45 UTC** from commit [`416d7bd`](../../commit/416d7bd) by `scripts/update_readme.py`.</sub>
 <!-- AUTO:UPDATED:END -->
