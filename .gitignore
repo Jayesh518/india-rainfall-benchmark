@@ -1,0 +1,83 @@
+# ---- Secrets ----
+.env
+.env.*
+!.env.example
+*.key
+
+# ---- Virtual environments (myenv/ is 360 MB) ----
+myenv/
+venv/
+.venv/
+env/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.Python
+/build/
+/dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Django ----
+db.sqlite3
+db.sqlite3-journal
+*.log
+/staticfiles/
+/media/
+
+# ---- Markdown: excluded by request, except the public-facing README ----
+*.md
+!README.md
+!.github/**/*.md
+
+# ---- Copyrighted reference papers: IEEE/Elsevier/Springer PDFs, not redistributable ----
+project research paper/
+*.pdf
+
+# ---- Fabricated dataset: synthetic, scheduled for replacement by IMD/IMDAA data ----
+Rainfall.csv
+project dataset/
+
+# ---- Archives / large binaries ----
+*.zip
+*.tar.gz
+*.7z
+
+# ---- Data & model artifacts (to be DVC-tracked, not git-tracked) ----
+data/raw/
+data/interim/
+data/processed/
+data/external/
+/models/
+/mlruns/
+*.parquet
+*.nc
+*.grd
+*.joblib
+*.pkl
+*.h5
+*.onnx
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*~
+~$*
+
+# ---- Legacy 2025 mini-project: kept on disk, excluded from this repo ----
+project_code/
+project diagram/
+Images/
+Mini Project Report.docx
+Mini_project_Rainfall.pptx
+css.txt
+project.txt
+project2.txt

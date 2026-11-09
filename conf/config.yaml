@@ -1,0 +1,28 @@
+# Root Hydra config. Override on the CLI, e.g.
+#   python scripts/08_train.py model=lightgbm data=d2_imdaa split=temporal
+defaults:
+  - data: d2_imdaa
+  - model: lightgbm
+  - split: temporal
+  - _self_
+
+seed: 42
+n_seeds: 5
+
+target:
+  task: binary            # binary | regression | ordinal | extreme
+  threshold_mm: 2.5       # IMD "rainy day" standard
+  horizon_days: 1
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  external: data/external
+  results: results
+  models: models
+
+tracking:
+  backend: mlflow
+  uri: file:./mlruns
+  experiment: india-rainfall-benchmark

@@ -1,0 +1,68 @@
+name: Update README
+
+# Regenerates the auto-maintained README sections (roadmap progress, results
+# table, repo stats, timestamp) whenever code or results land on main.
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README.md'          # never retrigger on our own commit
+  workflow_dispatch:          # allow a manual refresh from the Actions tab
+
+permissions:
+  contents: write             # required to push the regenerated README
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0       # update_readme.py counts commits via rev-list
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: Regenerate README sections
+        id: regen
+        run: |
+          set +e
+          python scripts/update_readme.py
+          code=$?
+          set -e
+          # 0 = already current, 1 = rewritten, anything else = real failure
+          if [ "$code" -gt 1 ]; then
+            echo "update_readme.py failed with exit code $code" >&2
+            exit "$code"
+          fi
+          echo "changed=$code" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push if changed
+        if: steps.regen.outputs.changed == '1'
+        run: |
+          # Attribute to the repository owner so the contributor list stays
+          # a single human profile rather than gaining a bot entry.
+          git config user.name  "Jayesh chaudhari"
+          git config user.email "127026542+Jayesh518@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No staged changes after all - nothing to commit."
+            exit 0
+          fi
+          git commit -m "docs: refresh auto-generated README sections [skip ci]"
+          git push
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.regen.outputs.changed }}" = "1" ]; then
+            echo "README regenerated and pushed." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "README already current - no commit needed." >> "$GITHUB_STEP_SUMMARY"
+          fi

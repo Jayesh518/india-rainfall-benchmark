@@ -1,0 +1,10 @@
+# Temporal split. A random split on a time series trains on later years to
+# predict earlier ones, which is leakage.
+name: temporal
+train: [1979, 2012]
+val:   [2013, 2017]
+test:  [2018, 2024]
+cv:
+  kind: expanding        # expanding | blocked
+  n_folds: 5
+  purge_days: 30         # gap between train and val to break autocorrelation
