@@ -970,6 +970,817 @@
       2024
     ]
   },
+  "D2": {
+    "fetched_utc": "2026-11-10T09:27:34Z",
+    "files": [
+      {
+        "bytes": 77771244,
+        "md5": "ef1bac271e3c094e347b4bf7f0fb39b4",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1990.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "500059258f603a30e232e75374781e05",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1991.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "3f9ce872e8b5b3e02bdebe77038c9262",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1992.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4d1cce3c906c84ed460ffb3be3afb726",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1993.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "7ab74779d3bfd21944d45c8197a721ab",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1994.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "ea39ee1e07584b317791be28a30a26cc",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1995.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "a13d550d50ea5be5aedd500f7e4ce663",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1996.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "79846afa15993711cc3544648142e539",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1997.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4f5d003321aa14f7868a90b9d6d134ff",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1998.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "b4380a4c594be3a14078316f6137c7f1",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_1999.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "8b65bc1c6d27fa66f28441d7c7f7716b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2000.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "38104cb36fc0713e9beb8c1f98a16c38",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2001.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "092b309d907b6e7e2c4bd211cdfa1b5e",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2002.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "91e30326064f251692748d69d2afd053",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2003.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "178760ebcb6805289ac4887f50b9842f",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2004.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "22e47903376921522c692a8a87b3912f",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2005.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "2ce6cc73c0eddbdd696718e97bc2fcf8",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2006.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "da6c25f186a46af48cd82d5a508a442b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2007.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "170d117c00314bae6d4de3ff4a4ba2bc",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2008.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "170a5f98f80590f60d0a06eaf76ae171",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2009.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "70a7f15fd72d7b3c7a190328029c9da2",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2010.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "53ec92817eb7fddc95f8b26d1feb0c2d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2011.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "950b75de2a6606a95c473e14750ac448",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2012.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "5d719981b3fabb0b973f677b6ca52a5c",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2013.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "a7b428ffff960297699fa965085eb66f",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2014.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "83b8e36f5d85a8203eff2ad08b997725",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2015.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "773f80d2baaa2c0d0a712e5097def182",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2016.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "b6eaaae11233758650fc5bbff9263f85",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2017.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "35c3ef780865073f3a325aaf641b6856",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2018.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4cd45e543fa0502226e73e5cf3de96f0",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2019.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "496dfa9aa33fa915fc2b505fb3f562ec",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_HGT_prl_1.08_1990_2020/IMDAA_HGT_prl_1.08_2020.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "0538acaef8bfedc510ddfd04a1f53c06",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1990.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "946fa633904b5f1a9786f63e3d44d02d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1991.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "d46b0f8b7dad00a026585fd9c01bc986",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1992.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "67a9e25cebce69bde811fcee8e9d298c",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1993.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "7fd0cd11b9861673a8a6987a086c3727",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1994.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "b2732d8f2f918aeb55703732a22c4c37",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1995.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "f4dbbdccdb943759ffab078322860561",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1996.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "d74cfc9f87e6a61a72ffba2b843681a8",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1997.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "6a251da736c18e3e5e4b54fa16f4b709",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1998.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "6f2a9263172c27d3b3e04db0f599a934",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_1999.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "7db39efe33a0d14c41b5c2434cd12523",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2000.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "421036b31345d6714633b58934c009f0",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2001.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "c1555b4138e47d39cfed1ca52272c2be",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2002.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "45b9cf5bfa8a441fa2d7e4f5bb9b8b56",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2003.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "698bd1339388aec14057c66e37190d8a",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2004.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "8fc7adb82937c6b8bdcd27fcdc5be666",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2005.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "3c8aa4e5b5fc87fc2d639efa05f75c24",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2006.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4a04328ae3e039c6cfd0d0d6017654e9",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2007.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "51872f9418f3e125829f204a1ff8dac2",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2008.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "e4c4d767e8da4a9e1e0c09758f318f49",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2009.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "791c688adb670a864abb7c4c2ca6a38b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2010.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "9702476ceafaf2317bcb294890c60c82",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2011.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "64e940ac858e0e5769e25278d8b0ae8e",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2012.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "beb72f357abad291ad23eb693f1e0bf2",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2013.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "d00c97354f2abd6976f863a857d8a61a",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2014.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "5aaff5fc2051afad0b82cfb58a88f26e",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2015.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "45761fb03c2d1a69feabd6ab608bb3d7",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2016.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "1ea244cf81366245b1819af6de3f1610",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2017.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "9985a5b56f4a9eb010249971a92c349f",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2018.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "c21a5f0e402859de43bf4c6da5d1aeed",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2019.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "3554e78e0b6dd4d90b28c8d78f5063e7",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_RH_prl_1.08_1990_2020/IMDAA_RH_prl_1.08_2020.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "f0ab3c14a5737df6a0f202856b64fe03",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1990.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "c538414966e3dd9d3aae3c0a09ea0f14",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1991.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "59d2026b11bd218dc0ab484bb5647336",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1992.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "cfacf7591e3f8d31c0d4a8d6da7b9923",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1993.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "70aa3a279ba61f17aa97db688d732753",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1994.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "be777424c207112c84c06d8eae862d01",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1995.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "fc88e638c2183f732658de79a8da0914",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1996.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "e108fa54797596e6bbbc0ffbfe8df969",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1997.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "d11d47a303266c3371d7cac54e80dcea",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1998.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "05283aff3cfbc2c8c718634de9c55404",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_1999.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "f7f212101367423d0094c04753a92abc",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2000.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "a1a4f3f5ec2c2e9491478c62722e19a8",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2001.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "f9f5e6ff715113daca11903d2ac38869",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2002.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "2e37a6f55d8913f1a46a7d88ca35b536",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2003.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "4a57f53924d369e323da80b3b69e4a54",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2004.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "797197b6c63928fbaf3e81c29619784b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2005.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "b99a786b0e77f586ca13cb049bea0a91",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2006.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "f0c3964a0a32be0403e07449313c0a4e",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2007.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "cada56479bb11545ab8fadb0d1bd0b4e",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2008.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "c0fa0afaa19cb48022bfe76d59405c5d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2009.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "6426579cb4c8cd43e3f0a7e8a79c9e9d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2010.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "f0d8e7cf47b315d5dcb574566f0be52c",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2011.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "e689784ab0075d0e4ace486f28105bca",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2012.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4c564331ab9dc23c0311a595fd7d7270",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2013.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "ec36c6c9c4d0db05bedb1f45fa1db78d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2014.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "1e6dcdc1bfe772d8ca4be3454958d1da",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2015.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "ef621b906b1bbdba3095a0f83b37514b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2016.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "d9435bfdaa8f1770fbe663b02fa4c08c",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2017.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "5260fe9a9282bec6ba905c14cc65b651",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2018.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "6b47e2ec7ba8776c3979f4165e1ae03c",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2019.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "d650b2065d512560220862dbc7b54065",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_TMP_prl_1.08_1990_2020/IMDAA_TMP_prl_1.08_2020.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "dfbbcfcce73b1f8e3589b1d644253bb6",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1990.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "6a2100e16fb725d35f20ab8cd0964b76",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1991.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "38e75493fa46f469c67114273bd5fdcd",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1992.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "a7b22f1fe0b95292f6da896f5f561177",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1993.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "2fbe30ecb7624328467835db66c78db4",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1994.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "cfe65e2e786b9f1a1891e5643146eaab",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1995.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "202449da1df9d4dcdeb38c2fe01957ef",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1996.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "894d4974e5e9e274c2d07b50fd155652",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1997.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "17ce11cf22637fc7352223a8ba013f81",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1998.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "380da1501aa74e62141f785ad1515fa1",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_1999.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "7aff561fdc372817f9091ea8da0e18b2",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2000.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "fdff5fb4c601c67a4ab471bf623b3996",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2001.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "5d067ecbd95b0a4e3c9bb943bbe08d87",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2002.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "8947a656d5715694ae106a1989cd953d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2003.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "5fb9dee5c579902b45fbee6c07501939",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2004.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "99248834c37f605024fd4793b0156ea6",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2005.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "7c6e970e1a44a2342d55d2bee77509a3",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2006.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "dc0f0927d0775a2175fcb7c814a8589a",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2007.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "699e60b6de3b3b6a62730d4912aa41f9",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2008.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "e4168794b278dc9736eec5d1dc6d250d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2009.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "3f9d481551d4ca1fe980b0117b1a62ea",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2010.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "a84f0dbc728293bec1c40ea59823d325",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2011.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "8fa11bcb1ffb98ec24eadcc784107f63",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2012.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "8a7afc5cf1b0923519927a15a70c9d3a",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2013.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4cdabf149dbe52305e91c82421e9f4aa",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2014.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "4f8a98797d1f1b2735b2fe4e84d79522",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2015.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "e7feb20e55913ee6083e93c4b99e85f9",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2016.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "183f4a867236fbe398ecab283b9afd3d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2017.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "8c635faa8d33a1188c01ffe3e619eb67",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2018.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "8aa3909c60a21dc9d52537153e1e54b3",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2019.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "760dfdffef9e09135ac68ad0829c11b1",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_UGRD_prl_1.08_1990_2020/IMDAA_UGRD_prl_1.08_2020.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "71610d123fef02d21133966e3f62a85b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1990.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "82c28916f304f9e08e0bc6988aa820ee",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1991.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "8237ddbfa5e6cc004654fee3d63ffb1c",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1992.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "9e6047f9169db6be26638af31a3f42dd",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1993.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "3db1d69414bff49655d898dfe4c30fea",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1994.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "23ee0943e951fbf152b66d0ea138f744",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1995.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "e376818ec90d4f737469304b5af79917",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1996.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "a64d35d5925380f8c6b91ece496f56f6",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1997.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "e691a21ab87dcadc994b693aea6b3ad0",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1998.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "f2f3812299a97fb1366d7e8cff75ef95",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_1999.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "c2bf4bde581391c4534c7821fbf030d6",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2000.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "13da4eff07cb3b4698df055e92313e5d",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2001.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "1b2bdf674886f1a53d5a92ec4beb5b4a",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2002.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "d109f8d1798103ad752b6e137efd8fbe",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2003.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "68b2641e010478e8dfbdce157c0f051a",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2004.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "cb7eb21f22acd3f39c2cc2cc83bbdc64",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2005.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "9b0fdfc09b2df4994f3a6ea9562697a2",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2006.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "beaf1bb767cec27b8603e76b12c48d91",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2007.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "06943383bbc5341100afd196d56d510e",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2008.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "39ea2601341533549256c276a48182a2",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2009.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "97ad252c3299705ac1bece3a191115cc",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2010.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "05df66d693235dd83decbbe40ecb2c33",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2011.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "15bdc606bf6c0ed2aaa68f4684a6401b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2012.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "061167c9b1d83de9a9deae1b3eca7414",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2013.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "ef26e874f9fca707730cef90a4922162",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2014.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "d70ecef4cf042983a1eb6fb07e56b63b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2015.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "40b76945559835db5565ea70e9ae206b",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2016.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "ee7e3e880d50b070672374b08c966200",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2017.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "1e20375084737fad91b599e8e9c740cb",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2018.nc"
+      },
+      {
+        "bytes": 77771244,
+        "md5": "492735ffd949713f912af6525db52fed",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2019.nc"
+      },
+      {
+        "bytes": 77979843,
+        "md5": "be8bad102f6c095bca503cf1ab560aae",
+        "path": "data/raw/d2_imdaa/Atmospheric_variable/IMDAA_VGRD_prl_1.08_1990_2020/IMDAA_VGRD_prl_1.08_2020.nc"
+      },
+      {
+        "bytes": 185888493,
+        "md5": "988eab8ba6a993cd16c4313b780eb0d4",
+        "path": "data/raw/d2_imdaa/Surface_variables/IMDAA_APCP_sfc_1.08_1990_2020.nc"
+      },
+      {
+        "bytes": 185891785,
+        "md5": "dbd0792d60dd26f8b9be227e269a55c9",
+        "path": "data/raw/d2_imdaa/Surface_variables/IMDAA_PRMSL_msl_1.08_1990_2020.nc"
+      },
+      {
+        "bytes": 200805721,
+        "md5": "7b60c4334eaf02149d19539d1ad1c745",
+        "path": "data/raw/d2_imdaa/Surface_variables/IMDAA_TMP_2m_1.08_1990_2020.nc"
+      },
+      {
+        "bytes": 185891785,
+        "md5": "f29d79ab64a8accc16f76d0e250f0312",
+        "path": "data/raw/d2_imdaa/Surface_variables/IMDAA_UGRD_10m_1.08_1990_2020.nc"
+      },
+      {
+        "bytes": 185891785,
+        "md5": "31bcdcd44ea06365eb7837f37c56e73e",
+        "path": "data/raw/d2_imdaa/Surface_variables/IMDAA_VGRD_10m_1.08_1990_2020.nc"
+      }
+    ],
+    "interim": "d2_station_6h.parquet",
+    "licence": "Upstream IMDAA is CC BY-NC-SA 4.0; no licence file ships with the copy (unverified). Attribute NCMRWF/MoES.",
+    "note": "1.08 deg (32x32) 6-hourly, 1990-2020 (T2m to 2023). Bilinear sampling at 34 stations. Not the 12 km IMDAA of the plan.",
+    "source": "IndiaWeatherBench IMDAA copy (Kaggle, hand-downloaded by the owner); upstream NCMRWF IMDAA",
+    "stations": 34,
+    "verified": false
+  },
   "D3": {
     "end": "20241231",
     "failed": [],
@@ -1197,7 +2008,7 @@
         72.75
       ]
     },
-    "fetched_utc": "2026-11-10T06:45:42Z",
+    "fetched_utc": "2026-11-10T08:43:55Z",
     "files": [
       {
         "bytes": 392838,
@@ -1246,33 +2057,11 @@
       }
     ],
     "licence": "Free for non-commercial use; cite Zippenfenig (2023) DOI 10.5281/ZENODO.7970649 and 'Generated using Copernicus Climate Change Service information'",
-    "note": "ERA5 (models=era5), 0.25 deg, daily aggregates in Asia/Kolkata local time. INCOMPLETE: 25 stations pending (quota).",
+    "note": "ERA5 (models=era5), 0.25 deg, daily aggregates in Asia/Kolkata local time. INCOMPLETE: 3 stations pending (quota).",
     "pending": [
-      "Shimla",
-      "Srinagar",
-      "Leh",
-      "Dehradun",
-      "Lucknow",
-      "Patna",
-      "Ranchi",
       "Kolkata",
-      "Bhubaneswar",
-      "Raipur",
-      "Bhopal",
-      "Indore",
       "Guwahati",
-      "Shillong",
-      "Agartala",
-      "Imphal",
-      "Gangtok",
-      "Visakhapatnam",
-      "Hyderabad",
-      "Bengaluru",
-      "Chennai",
-      "Madurai",
-      "Coimbatore",
-      "Kochi",
-      "Thiruvananthapuram"
+      "Chennai"
     ],
     "source": "https://archive-api.open-meteo.com/v1/archive",
     "start": 1981,
