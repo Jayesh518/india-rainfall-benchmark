@@ -193,7 +193,7 @@ Run the tests with `make test`, or `PYTHONPATH=src pytest -q`.
 - [ ] **15** — Paper & write-up
 
 <!-- AUTO:STATS:START -->
-<sub>**Repository:** 34 tracked files · 28 source files · ~1,250 lines of code · 1 commit</sub>
+<sub>**Repository:** 48 tracked files · 41 source files · ~2,991 lines of code · 3 commits</sub>
 <!-- AUTO:STATS:END -->
 
 ---
@@ -222,5 +222,5 @@ scripts that fetch data. See [`data/README.md`](data/README.md) for required att
 Builds on [BharatBench](https://github.com/MASLABnitrkl/BharatBench) (Choudhury, Panda & Mukherjee, NIT Rourkela — [arXiv:2405.07534](https://arxiv.org/abs/2405.07534)) and [IndiaWeatherBench](https://github.com/tung-nd/IndiaWeatherBench) (Nguyen et al., UCLA — [arXiv:2509.00653](https://arxiv.org/abs/2509.00653)), which curated IMDAA for machine learning and established graph-model baselines over India.
 
 <!-- AUTO:UPDATED:START -->
-<sub>Auto-generated sections last updated **2026-11-09 20:45 UTC** from commit [`416d7bd`](../../commit/416d7bd) by `scripts/update_readme.py`.</sub>
+<sub>Auto-generated sections last updated **2026-11-10 08:43 UTC** from commit [`4dde000`](../../commit/4dde000) by `scripts/update_readme.py`.</sub>
 <!-- AUTO:UPDATED:END -->
