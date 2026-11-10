@@ -1,0 +1,1334 @@
+{
+  "BASE": {
+    "columns": [
+      "date",
+      "station",
+      "d1_rain_mm",
+      "y_rain_next_mm",
+      "d3_T2M",
+      "d3_T2M_MAX",
+      "d3_T2M_MIN",
+      "d3_RH2M",
+      "d3_QV2M",
+      "d3_PS",
+      "d3_WS10M",
+      "d3_WD10M",
+      "d3_ALLSKY_SFC_SW_DWN",
+      "d3_PRECTOTCORR",
+      "d4_temperature_2m_max",
+      "d4_temperature_2m_min",
+      "d4_temperature_2m_mean",
+      "d4_relative_humidity_2m_mean",
+      "d4_dew_point_2m_mean",
+      "d4_surface_pressure_mean",
+      "d4_pressure_msl_mean",
+      "d4_cloud_cover_mean",
+      "d4_wind_speed_10m_max",
+      "d4_wind_direction_10m_dominant",
+      "d4_shortwave_radiation_sum",
+      "d4_et0_fao_evapotranspiration",
+      "d4_precipitation_sum",
+      "d5_nino34",
+      "d5_soi",
+      "d5_dmi",
+      "d5_omi_pc1",
+      "d5_omi_pc2",
+      "d5_omi_amp"
+    ],
+    "fetched_utc": "2026-11-10T06:53:51Z",
+    "files": [
+      {
+        "bytes": 16781099,
+        "md5": "f35df166ae8f084979e011d050bbbe7a",
+        "path": "data/processed/india_rain_base.parquet"
+      }
+    ],
+    "licence": "Derived; inherits the most restrictive source licence. Not redistributed.",
+    "note": "Base station-day table. Native units kept; no features engineered yet.",
+    "rows": 571268,
+    "source": "derived from D1, D3, D4, D5 (see their entries)",
+    "stations": 34,
+    "verified": true
+  },
+  "D1": {
+    "cell_matches": [
+      {
+        "accepted": true,
+        "cell_lat": 19.0,
+        "cell_lon": 73.0,
+        "distance_km": 15.4,
+        "station": "Mumbai"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 18.5,
+        "cell_lon": 73.75,
+        "distance_km": 11.8,
+        "station": "Pune"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 21.25,
+        "cell_lon": 79.0,
+        "distance_km": 14.5,
+        "station": "Nagpur"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 21.25,
+        "cell_lon": 72.75,
+        "distance_km": 12.2,
+        "station": "Surat"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 23.0,
+        "cell_lon": 72.5,
+        "distance_km": 9.8,
+        "station": "Ahmedabad"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 26.25,
+        "cell_lon": 73.0,
+        "distance_km": 2.3,
+        "station": "Jodhpur"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 27.0,
+        "cell_lon": 75.75,
+        "distance_km": 10.8,
+        "station": "Jaipur"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 28.5,
+        "cell_lon": 77.25,
+        "distance_km": 12.8,
+        "station": "Delhi"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 30.75,
+        "cell_lon": 76.75,
+        "distance_km": 3.6,
+        "station": "Chandigarh"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 31.0,
+        "cell_lon": 77.25,
+        "distance_km": 13.5,
+        "station": "Shimla"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 34.0,
+        "cell_lon": 74.75,
+        "distance_km": 10.0,
+        "station": "Srinagar"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 34.25,
+        "cell_lon": 77.5,
+        "distance_km": 12.4,
+        "station": "Leh"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 30.25,
+        "cell_lon": 78.0,
+        "distance_km": 8.3,
+        "station": "Dehradun"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 26.75,
+        "cell_lon": 81.0,
+        "distance_km": 12.2,
+        "station": "Lucknow"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 25.5,
+        "cell_lon": 85.25,
+        "distance_km": 14.9,
+        "station": "Patna"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 23.25,
+        "cell_lon": 85.25,
+        "distance_km": 11.7,
+        "station": "Ranchi"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 22.5,
+        "cell_lon": 88.25,
+        "distance_km": 13.7,
+        "station": "Kolkata"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 20.25,
+        "cell_lon": 85.75,
+        "distance_km": 9.2,
+        "station": "Bhubaneswar"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 21.25,
+        "cell_lon": 81.75,
+        "distance_km": 12.4,
+        "station": "Raipur"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 23.25,
+        "cell_lon": 77.5,
+        "distance_km": 9.3,
+        "station": "Bhopal"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 22.75,
+        "cell_lon": 75.75,
+        "distance_km": 11.8,
+        "station": "Indore"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 26.25,
+        "cell_lon": 91.75,
+        "distance_km": 12.3,
+        "station": "Guwahati"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 25.5,
+        "cell_lon": 92.0,
+        "distance_km": 14.2,
+        "station": "Shillong"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 23.75,
+        "cell_lon": 91.25,
+        "distance_km": 9.4,
+        "station": "Agartala"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 24.75,
+        "cell_lon": 94.0,
+        "distance_km": 9.9,
+        "station": "Imphal"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 27.25,
+        "cell_lon": 88.5,
+        "distance_km": 14.0,
+        "station": "Gangtok"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 17.75,
+        "cell_lon": 83.25,
+        "distance_km": 7.4,
+        "station": "Visakhapatnam"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 17.5,
+        "cell_lon": 78.5,
+        "distance_km": 12.3,
+        "station": "Hyderabad"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 13.0,
+        "cell_lon": 77.5,
+        "distance_km": 10.3,
+        "station": "Bengaluru"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 13.25,
+        "cell_lon": 80.25,
+        "distance_km": 19.0,
+        "station": "Chennai"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 10.0,
+        "cell_lon": 78.0,
+        "distance_km": 15.3,
+        "station": "Madurai"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 11.0,
+        "cell_lon": 77.0,
+        "distance_km": 4.9,
+        "station": "Coimbatore"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 10.0,
+        "cell_lon": 76.25,
+        "distance_km": 8.1,
+        "station": "Kochi"
+      },
+      {
+        "accepted": true,
+        "cell_lat": 8.5,
+        "cell_lon": 77.0,
+        "distance_km": 7.0,
+        "station": "Thiruvananthapuram"
+      },
+      {
+        "accepted": false,
+        "cell_lat": 22.0,
+        "cell_lon": 93.0,
+        "distance_km": 1154.6,
+        "station": "Port Blair"
+      }
+    ],
+    "fetched_utc": "2026-11-09T21:17:57Z",
+    "files": [
+      {
+        "bytes": 25425900,
+        "md5": "45fd07666ff370099f5465e221abf9f5",
+        "path": "data/raw/d1_imd/rain/1901.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "5e68308f196a430a122be54059fe8bfb",
+        "path": "data/raw/d1_imd/rain/1902.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "f980d5030cc5e5029fa9a5196e827389",
+        "path": "data/raw/d1_imd/rain/1903.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "1894141a8712d4f14b1639953fc4c03e",
+        "path": "data/raw/d1_imd/rain/1904.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "68a902579e8ab9645f1e10a06a1393e6",
+        "path": "data/raw/d1_imd/rain/1905.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "33e90687d48c222520d5fb733f6174ca",
+        "path": "data/raw/d1_imd/rain/1906.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "fade3a2046dcd3a257957d635bf24c43",
+        "path": "data/raw/d1_imd/rain/1907.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "c40cdf1066f0b994dc2385101974f66f",
+        "path": "data/raw/d1_imd/rain/1908.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "a8ba33fc18bd47dc680b852ea71959ab",
+        "path": "data/raw/d1_imd/rain/1909.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "67c2e5f8170e978868bae675c2492dc3",
+        "path": "data/raw/d1_imd/rain/1910.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "6039873b77209c3f69de2618597cacee",
+        "path": "data/raw/d1_imd/rain/1911.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "1bd84412d598458568aef7e157c3cb9f",
+        "path": "data/raw/d1_imd/rain/1912.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "263f3c9e07e05506fc1732f8f14f9cbd",
+        "path": "data/raw/d1_imd/rain/1913.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "e4e3b5df4f467b815585286c2dcf72df",
+        "path": "data/raw/d1_imd/rain/1914.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "9aae90309b250eb4a698324162736d8e",
+        "path": "data/raw/d1_imd/rain/1915.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "6de028ec90cb02361bd9b6f2b5199958",
+        "path": "data/raw/d1_imd/rain/1916.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "35b84dacf552064a5797d1df7f2388dc",
+        "path": "data/raw/d1_imd/rain/1917.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "5fb51a82874aec26acb8a9015f3b6339",
+        "path": "data/raw/d1_imd/rain/1918.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b4425333868633427773e545d788cb92",
+        "path": "data/raw/d1_imd/rain/1919.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "a1f75866f2006e83f126f9a9bf586e8a",
+        "path": "data/raw/d1_imd/rain/1920.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "2b035cd881b98f6a2eb5f86c1a21d540",
+        "path": "data/raw/d1_imd/rain/1921.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "2d01f623db824c6f73f3296da8427364",
+        "path": "data/raw/d1_imd/rain/1922.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "9f6440b239d26decff06a7cd5116513b",
+        "path": "data/raw/d1_imd/rain/1923.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "a5a20de59e7b343fa8d1dc6b291ae566",
+        "path": "data/raw/d1_imd/rain/1924.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "8309bbaa59a0f22aa7b0539b6fce1765",
+        "path": "data/raw/d1_imd/rain/1925.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "0f96b38048a00aef956813d57db04744",
+        "path": "data/raw/d1_imd/rain/1926.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "c94da04bb171f3430dc7bb42e423866c",
+        "path": "data/raw/d1_imd/rain/1927.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "cbec4c0879bca42f67caa013f6f93230",
+        "path": "data/raw/d1_imd/rain/1928.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "1b6e2732fc7e658bb6827d6862abec92",
+        "path": "data/raw/d1_imd/rain/1929.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "c4c3fc010a69b329ab8bacd62dc6e668",
+        "path": "data/raw/d1_imd/rain/1930.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "e437bd032acc65bc6f3b72f5991bbe0d",
+        "path": "data/raw/d1_imd/rain/1931.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "b6e9018b371468e1bc5624d56af5cfc7",
+        "path": "data/raw/d1_imd/rain/1932.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "cf5dd17cc929a44c3d34cf9563f9e870",
+        "path": "data/raw/d1_imd/rain/1933.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "051ae03fe7406b1affc81fa833b67d2b",
+        "path": "data/raw/d1_imd/rain/1934.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "8cbac18426bb4541688517655c2d952e",
+        "path": "data/raw/d1_imd/rain/1935.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "8fd7fbdc0ea34a79b9b628c135016159",
+        "path": "data/raw/d1_imd/rain/1936.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "44635c76d8b2ec270ef440fa36746434",
+        "path": "data/raw/d1_imd/rain/1937.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "7663431b1d5713ea5cd521f3dcaccff6",
+        "path": "data/raw/d1_imd/rain/1938.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "2298a5cf58c2054890fc55a27abe6b0f",
+        "path": "data/raw/d1_imd/rain/1939.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "d2edfdaf903c1d5f1cc4532a079380c7",
+        "path": "data/raw/d1_imd/rain/1940.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "221273f6df7ae937618dd72c84442969",
+        "path": "data/raw/d1_imd/rain/1941.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "59e2c98030d49e8a1ec116412e8c1f0f",
+        "path": "data/raw/d1_imd/rain/1942.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "3566a85fcab253df2cac1e56740e6559",
+        "path": "data/raw/d1_imd/rain/1943.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "51da1c80e89515b4b0f5b38b32eb5fd5",
+        "path": "data/raw/d1_imd/rain/1944.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "abcb53f261d535a0c0d4e8d29b9b5b4f",
+        "path": "data/raw/d1_imd/rain/1945.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "a7335f526fcd517f6a10a5b2e1608128",
+        "path": "data/raw/d1_imd/rain/1946.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "8fe51ed56cc57aadb6bb4bf0824d17b0",
+        "path": "data/raw/d1_imd/rain/1947.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "dd88c020d9fdb99ba64a6a0e36936c69",
+        "path": "data/raw/d1_imd/rain/1948.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "99d152412f3a14ede783fe94a76f5ba6",
+        "path": "data/raw/d1_imd/rain/1949.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "4384f5a3122b7aa060c0ed5d9a704472",
+        "path": "data/raw/d1_imd/rain/1950.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "61f4824fe22229f167f54703af5bbb59",
+        "path": "data/raw/d1_imd/rain/1951.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "c70d955dee546c3035fa1c7176efe74a",
+        "path": "data/raw/d1_imd/rain/1952.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "c2cc281df6feb8601127eafb9a9afba2",
+        "path": "data/raw/d1_imd/rain/1953.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "440e84fab0a29a9c0292bcfb44572f05",
+        "path": "data/raw/d1_imd/rain/1954.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "2b816bfa35f74c34697de2880eba3c9a",
+        "path": "data/raw/d1_imd/rain/1955.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "91586e516643fe765b313d798d16490c",
+        "path": "data/raw/d1_imd/rain/1956.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "70ecc16ce8c3bfce13d28970560815bd",
+        "path": "data/raw/d1_imd/rain/1957.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "f1ef94999eebf5e361afd300634cae35",
+        "path": "data/raw/d1_imd/rain/1958.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b76b616766a47401e60f930da3efdf00",
+        "path": "data/raw/d1_imd/rain/1959.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "870c50baac4e58b6672f46c19ae3481b",
+        "path": "data/raw/d1_imd/rain/1960.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "ebfd5b4f6e7c7317a899685800a060e0",
+        "path": "data/raw/d1_imd/rain/1961.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "69a3b1c0551d76ab186b1835b6b707ec",
+        "path": "data/raw/d1_imd/rain/1962.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "876843790af22c822044d18852fa97d5",
+        "path": "data/raw/d1_imd/rain/1963.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "57643733edd309ffb207fd57590440d3",
+        "path": "data/raw/d1_imd/rain/1964.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "269ff85879075f558a7b79e486ba012b",
+        "path": "data/raw/d1_imd/rain/1965.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "2832c1dd040c51eb3b120baf9f0059a3",
+        "path": "data/raw/d1_imd/rain/1966.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "61e5b53e9e5e806c51ce7023b807762f",
+        "path": "data/raw/d1_imd/rain/1967.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "78b6063c301104d1e5069c356a5ccb9c",
+        "path": "data/raw/d1_imd/rain/1968.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "c12a3055bd814669374e3d6a0037a228",
+        "path": "data/raw/d1_imd/rain/1969.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "7cd881d7b29a2805801d3e0da1ee3b95",
+        "path": "data/raw/d1_imd/rain/1970.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "9edef9eaaf6056d6be56c9c44e7d6bc4",
+        "path": "data/raw/d1_imd/rain/1971.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "cb29651283689a7b8bb0f5077aef707d",
+        "path": "data/raw/d1_imd/rain/1972.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "549dbebacf676c5e05a5fb2339baf404",
+        "path": "data/raw/d1_imd/rain/1973.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "39a476bbde383b81f5d0c397599c8002",
+        "path": "data/raw/d1_imd/rain/1974.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b1e8cf18f12d07c647679cb719a8520f",
+        "path": "data/raw/d1_imd/rain/1975.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "0dcc4a4dc31931ae5cac98b8b50a9da4",
+        "path": "data/raw/d1_imd/rain/1976.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "0d4a1c97c55fb3e2e4c25d4cb1cf777f",
+        "path": "data/raw/d1_imd/rain/1977.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "0aa48b77a50f3057122e992097d5b5e9",
+        "path": "data/raw/d1_imd/rain/1978.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "76ee04471c8fac533d7fa1e53ad269cc",
+        "path": "data/raw/d1_imd/rain/1979.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "48ebad7cceff2bbc02c6ba3373515ca6",
+        "path": "data/raw/d1_imd/rain/1980.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "9b4676dc5aab1a89218408a7758c729b",
+        "path": "data/raw/d1_imd/rain/1981.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "34af7dc0665217cd7d2615339c23022e",
+        "path": "data/raw/d1_imd/rain/1982.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "e3cc774ece4f5305194862fc1003b888",
+        "path": "data/raw/d1_imd/rain/1983.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "0321af17f7fd2b6ec9b3e4d7ff07b2e4",
+        "path": "data/raw/d1_imd/rain/1984.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "0d90ac8b8a9c3b1e014ed423c8848d22",
+        "path": "data/raw/d1_imd/rain/1985.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b3764d77a05308ce2f3b89010a6128eb",
+        "path": "data/raw/d1_imd/rain/1986.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "3d07c5fb83ecefb41b8645f38870f810",
+        "path": "data/raw/d1_imd/rain/1987.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "ea7a3e5cd548c54572da402bab9e72df",
+        "path": "data/raw/d1_imd/rain/1988.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "affac349adf196111798673994a18ca6",
+        "path": "data/raw/d1_imd/rain/1989.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "67d3bce7e07a2c2411cf3ba5725635d9",
+        "path": "data/raw/d1_imd/rain/1990.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "f8a1fd144cf1608d1df6fe5a14cad5ce",
+        "path": "data/raw/d1_imd/rain/1991.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "50409e5b620017bd46545ae335688220",
+        "path": "data/raw/d1_imd/rain/1992.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "6edf9f451f680941f93790ca5d8acd98",
+        "path": "data/raw/d1_imd/rain/1993.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "bb8dcc043fcdeb53b5fb353966d0cfba",
+        "path": "data/raw/d1_imd/rain/1994.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "431e038f5137bdc3dbf5b68c2777bc6f",
+        "path": "data/raw/d1_imd/rain/1995.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "92ecb5d63ae3508056ee65e079c9fd2c",
+        "path": "data/raw/d1_imd/rain/1996.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "09d0c5abaf9a72088928f99d6719f707",
+        "path": "data/raw/d1_imd/rain/1997.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b9ba6d583557a47a507cf189c595d784",
+        "path": "data/raw/d1_imd/rain/1998.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "82ae9ed04b834cb2b2636f7f63167b25",
+        "path": "data/raw/d1_imd/rain/1999.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "e39de272b1feb6236087ae70183d726a",
+        "path": "data/raw/d1_imd/rain/2000.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "59db2ce5baa7eb0deb812f3491f7b1ee",
+        "path": "data/raw/d1_imd/rain/2001.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "ab81dbd8551e9d4068f3a5542a8b210b",
+        "path": "data/raw/d1_imd/rain/2002.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b85c7362c9e9c97c36051ef7bcea19c9",
+        "path": "data/raw/d1_imd/rain/2003.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "9a9407607a1d564650adbd4dbaf59d07",
+        "path": "data/raw/d1_imd/rain/2004.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "51c61703280647a0f6e58d5f2c4d9158",
+        "path": "data/raw/d1_imd/rain/2005.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "da0802bfdc80512a38ea7ae7b3b17131",
+        "path": "data/raw/d1_imd/rain/2006.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "a47de6a62d6b4f3a6b04c0c537a8db37",
+        "path": "data/raw/d1_imd/rain/2007.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "5de28028afdef8370b2d05a94b13c0ea",
+        "path": "data/raw/d1_imd/rain/2008.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "ab67c6c16f902a17374d9b81f77977f1",
+        "path": "data/raw/d1_imd/rain/2009.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "90525403d50c6aa202daa8e26181ae93",
+        "path": "data/raw/d1_imd/rain/2010.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "892e1d7d87a5446bcbfc82e2e380ee24",
+        "path": "data/raw/d1_imd/rain/2011.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "465a3553114e73763d5c60dbbda4a8cf",
+        "path": "data/raw/d1_imd/rain/2012.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b809509b96a295f44f5d211ed36ba325",
+        "path": "data/raw/d1_imd/rain/2013.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "485d8cbd4c106303e50ebc1c2c4c1a2e",
+        "path": "data/raw/d1_imd/rain/2014.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "592fe96cb353574ccb0383f5c2bcf341",
+        "path": "data/raw/d1_imd/rain/2015.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "17b4526f295f6e8723d811f00d1e2f89",
+        "path": "data/raw/d1_imd/rain/2016.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "3a4e95be54911e463909d6fbae067fdc",
+        "path": "data/raw/d1_imd/rain/2017.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "58a8b4391116fe4c1838eab667593cf1",
+        "path": "data/raw/d1_imd/rain/2018.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "c31d8ad6b95634678d5b65120fc9b1a2",
+        "path": "data/raw/d1_imd/rain/2019.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "81b95a401309bdbe903e741994be0029",
+        "path": "data/raw/d1_imd/rain/2020.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "b20ba81f997cda10e3c76d630e3b7096",
+        "path": "data/raw/d1_imd/rain/2021.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "678426f59c36d68e8e0651bc08a50d5a",
+        "path": "data/raw/d1_imd/rain/2022.grd"
+      },
+      {
+        "bytes": 25425900,
+        "md5": "8eac52fd6d00ce3ce6d3a79220e7ccae",
+        "path": "data/raw/d1_imd/rain/2023.grd"
+      },
+      {
+        "bytes": 25495560,
+        "md5": "0e0c21e898bbd48b59814650fd793bd6",
+        "path": "data/raw/d1_imd/rain/2024.grd"
+      }
+    ],
+    "licence": "IMD terms of use; cite India Meteorological Department, Pune",
+    "note": "Downloaded with imdlib. Stations matched to the nearest grid cell with >=95% valid days over 1979-2024 and within 40 km; others dropped.",
+    "source": "https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html",
+    "station_rows": 1539894,
+    "stations_dropped": [
+      "Port Blair"
+    ],
+    "stations_kept": [
+      "Agartala",
+      "Ahmedabad",
+      "Bengaluru",
+      "Bhopal",
+      "Bhubaneswar",
+      "Chandigarh",
+      "Chennai",
+      "Coimbatore",
+      "Dehradun",
+      "Delhi",
+      "Gangtok",
+      "Guwahati",
+      "Hyderabad",
+      "Imphal",
+      "Indore",
+      "Jaipur",
+      "Jodhpur",
+      "Kochi",
+      "Kolkata",
+      "Leh",
+      "Lucknow",
+      "Madurai",
+      "Mumbai",
+      "Nagpur",
+      "Patna",
+      "Pune",
+      "Raipur",
+      "Ranchi",
+      "Shillong",
+      "Shimla",
+      "Srinagar",
+      "Surat",
+      "Thiruvananthapuram",
+      "Visakhapatnam"
+    ],
+    "verified": true,
+    "years": [
+      1901,
+      2024
+    ]
+  },
+  "D3": {
+    "end": "20241231",
+    "failed": [],
+    "fetched_utc": "2026-11-09T21:13:28Z",
+    "files": [
+      {
+        "bytes": 461977,
+        "md5": "76feb543683da4393e6c0df386b7ad93",
+        "path": "data/raw/d3_power/Agartala.parquet"
+      },
+      {
+        "bytes": 468880,
+        "md5": "e5d7c19c43d1cd0aad30edb4c2c524e5",
+        "path": "data/raw/d3_power/Ahmedabad.parquet"
+      },
+      {
+        "bytes": 443398,
+        "md5": "ec59fb2e21449582d2c88a3a1eef8881",
+        "path": "data/raw/d3_power/Bengaluru.parquet"
+      },
+      {
+        "bytes": 479448,
+        "md5": "cffdbaa001a60444bce63acb5a1e6e9e",
+        "path": "data/raw/d3_power/Bhopal.parquet"
+      },
+      {
+        "bytes": 468135,
+        "md5": "136702e296ae18522baf54ca8abbe721",
+        "path": "data/raw/d3_power/Bhubaneswar.parquet"
+      },
+      {
+        "bytes": 483221,
+        "md5": "f32205712b93397722860ac146363f32",
+        "path": "data/raw/d3_power/Chandigarh.parquet"
+      },
+      {
+        "bytes": 434467,
+        "md5": "73fe2d089e615b8f9e986e5e8fdfe47b",
+        "path": "data/raw/d3_power/Chennai.parquet"
+      },
+      {
+        "bytes": 435281,
+        "md5": "67c6d1378ba250753d55be772061bcb5",
+        "path": "data/raw/d3_power/Coimbatore.parquet"
+      },
+      {
+        "bytes": 474718,
+        "md5": "c2f5a03abf3ebca624df7f172aec12bd",
+        "path": "data/raw/d3_power/Dehradun.parquet"
+      },
+      {
+        "bytes": 483816,
+        "md5": "672d4148b74b8fbbb6177862406c2281",
+        "path": "data/raw/d3_power/Delhi.parquet"
+      },
+      {
+        "bytes": 440509,
+        "md5": "1bbfabc52a41c422ec53cb239a2b8081",
+        "path": "data/raw/d3_power/Gangtok.parquet"
+      },
+      {
+        "bytes": 454063,
+        "md5": "1b6b0fa220a40c69af0475740e3cf254",
+        "path": "data/raw/d3_power/Guwahati.parquet"
+      },
+      {
+        "bytes": 458322,
+        "md5": "5e3f75dd558fd912e5753830fe3454e1",
+        "path": "data/raw/d3_power/Hyderabad.parquet"
+      },
+      {
+        "bytes": 449450,
+        "md5": "073206736c937dc0b64def31c6f4571c",
+        "path": "data/raw/d3_power/Imphal.parquet"
+      },
+      {
+        "bytes": 471254,
+        "md5": "6cd35714771cf3b5de2adce88fe14155",
+        "path": "data/raw/d3_power/Indore.parquet"
+      },
+      {
+        "bytes": 476963,
+        "md5": "66c8cbfda6e15410bb9d7a09f4e2f296",
+        "path": "data/raw/d3_power/Jaipur.parquet"
+      },
+      {
+        "bytes": 469628,
+        "md5": "786c87c070ee8af803770b1e428ab143",
+        "path": "data/raw/d3_power/Jodhpur.parquet"
+      },
+      {
+        "bytes": 426460,
+        "md5": "e72a2c69e8522ff7fb5ff066a6749687",
+        "path": "data/raw/d3_power/Kochi.parquet"
+      },
+      {
+        "bytes": 468785,
+        "md5": "68dd126a538655215216824a99e366ed",
+        "path": "data/raw/d3_power/Kolkata.parquet"
+      },
+      {
+        "bytes": 472374,
+        "md5": "2242bdef9f77493e5e337ac27b1e2e91",
+        "path": "data/raw/d3_power/Leh.parquet"
+      },
+      {
+        "bytes": 485061,
+        "md5": "c389993c7fcf7725ae87fab393f02152",
+        "path": "data/raw/d3_power/Lucknow.parquet"
+      },
+      {
+        "bytes": 439688,
+        "md5": "1d8144567dd303f331bcc5cfac5735f5",
+        "path": "data/raw/d3_power/Madurai.parquet"
+      },
+      {
+        "bytes": 453587,
+        "md5": "34d9f1218ca3dc99e6ec3d8e013ff610",
+        "path": "data/raw/d3_power/Mumbai.parquet"
+      },
+      {
+        "bytes": 479886,
+        "md5": "6be10af1cb72fcb5f77f35e635314106",
+        "path": "data/raw/d3_power/Nagpur.parquet"
+      },
+      {
+        "bytes": 484279,
+        "md5": "37e447ae1e2767f50a1fb198eb617aac",
+        "path": "data/raw/d3_power/Patna.parquet"
+      },
+      {
+        "bytes": 454431,
+        "md5": "7b5ea9cc243ff90c288f877a245fff6b",
+        "path": "data/raw/d3_power/Pune.parquet"
+      },
+      {
+        "bytes": 481225,
+        "md5": "aaad1ae57bbd48710fa6f57228f927cc",
+        "path": "data/raw/d3_power/Raipur.parquet"
+      },
+      {
+        "bytes": 479894,
+        "md5": "93df5379c5c2babcd0fe7e7ba6dd3818",
+        "path": "data/raw/d3_power/Ranchi.parquet"
+      },
+      {
+        "bytes": 454673,
+        "md5": "18f03e781721334473b8160d6b5303cb",
+        "path": "data/raw/d3_power/Shillong.parquet"
+      },
+      {
+        "bytes": 477654,
+        "md5": "b71095a460c83fd62986aa2cce13c5fb",
+        "path": "data/raw/d3_power/Shimla.parquet"
+      },
+      {
+        "bytes": 473429,
+        "md5": "c80cd53ef97ee6a073fb075dc8043b11",
+        "path": "data/raw/d3_power/Srinagar.parquet"
+      },
+      {
+        "bytes": 456294,
+        "md5": "cabdc2bccc196681ba5aff1ebd81cea2",
+        "path": "data/raw/d3_power/Surat.parquet"
+      },
+      {
+        "bytes": 420365,
+        "md5": "e4d3cefd0559b3aecb1d6cad85bd352d",
+        "path": "data/raw/d3_power/Thiruvananthapuram.parquet"
+      },
+      {
+        "bytes": 435077,
+        "md5": "0fe3f7325ec2e1a9218f6c4366d6ab13",
+        "path": "data/raw/d3_power/Visakhapatnam.parquet"
+      }
+    ],
+    "licence": "NASA open data; cite NASA Langley Research Center POWER Project",
+    "note": "MERRA-2 derived, ~0.5 deg native resolution, community=AG, point queries at station coordinates. PS is kPa. Day boundaries follow the POWER time standard.",
+    "parameters": {
+      "ALLSKY_SFC_SW_DWN": "kWh/m^2/day",
+      "PRECTOTCORR": "mm/day",
+      "PS": "kPa",
+      "QV2M": "g/kg",
+      "RH2M": "%",
+      "T2M": "degC",
+      "T2M_MAX": "degC",
+      "T2M_MIN": "degC",
+      "WD10M": "degrees",
+      "WS10M": "m/s"
+    },
+    "source": "https://power.larc.nasa.gov/api/temporal/daily/point",
+    "start": "19810101",
+    "stations": 34,
+    "verified": true
+  },
+  "D4": {
+    "end": 2024,
+    "era5_cells": {
+      "Ahmedabad": [
+        23.0,
+        72.5
+      ],
+      "Chandigarh": [
+        30.75,
+        76.75
+      ],
+      "Delhi": [
+        28.5,
+        77.25
+      ],
+      "Jaipur": [
+        27.0,
+        75.75
+      ],
+      "Jodhpur": [
+        26.25,
+        73.0
+      ],
+      "Shimla": [
+        31.0,
+        77.25
+      ],
+      "Surat": [
+        21.25,
+        72.75
+      ]
+    },
+    "fetched_utc": "2026-11-10T06:45:42Z",
+    "files": [
+      {
+        "bytes": 392838,
+        "md5": "42e20b572269c5593114455e56dc92ad",
+        "path": "data/raw/d4_era5/Ahmedabad.parquet"
+      },
+      {
+        "bytes": 406417,
+        "md5": "a825252d5c7e0c75699a3bddb6226cbb",
+        "path": "data/raw/d4_era5/Chandigarh.parquet"
+      },
+      {
+        "bytes": 406649,
+        "md5": "05cdac28d64fe222eb3b626fa04c406e",
+        "path": "data/raw/d4_era5/Delhi.parquet"
+      },
+      {
+        "bytes": 404865,
+        "md5": "800c943b24e967f688245bf6d4df3eb3",
+        "path": "data/raw/d4_era5/Jaipur.parquet"
+      },
+      {
+        "bytes": 401766,
+        "md5": "a240cb717acc58f9376c7cc4f6bf33f0",
+        "path": "data/raw/d4_era5/Jodhpur.parquet"
+      },
+      {
+        "bytes": 405024,
+        "md5": "ea0089151c56adeac5339d33a18c8020",
+        "path": "data/raw/d4_era5/Mumbai.parquet"
+      },
+      {
+        "bytes": 419707,
+        "md5": "13c2aa3753edc5a7a5a29f5154dbb857",
+        "path": "data/raw/d4_era5/Nagpur.parquet"
+      },
+      {
+        "bytes": 408561,
+        "md5": "a00ca347ea381dc6fd746e0e2325aba3",
+        "path": "data/raw/d4_era5/Pune.parquet"
+      },
+      {
+        "bytes": 385957,
+        "md5": "c4d3c2beafb28f294957e30dcc88de4b",
+        "path": "data/raw/d4_era5/Surat.parquet"
+      }
+    ],
+    "licence": "Free for non-commercial use; cite Zippenfenig (2023) DOI 10.5281/ZENODO.7970649 and 'Generated using Copernicus Climate Change Service information'",
+    "note": "ERA5 (models=era5), 0.25 deg, daily aggregates in Asia/Kolkata local time. INCOMPLETE: 25 stations pending (quota).",
+    "pending": [
+      "Shimla",
+      "Srinagar",
+      "Leh",
+      "Dehradun",
+      "Lucknow",
+      "Patna",
+      "Ranchi",
+      "Kolkata",
+      "Bhubaneswar",
+      "Raipur",
+      "Bhopal",
+      "Indore",
+      "Guwahati",
+      "Shillong",
+      "Agartala",
+      "Imphal",
+      "Gangtok",
+      "Visakhapatnam",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Madurai",
+      "Coimbatore",
+      "Kochi",
+      "Thiruvananthapuram"
+    ],
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "start": 1981,
+    "stations": 9,
+    "variables": {
+      "cloud_cover_mean": "%",
+      "dew_point_2m_mean": "degC",
+      "et0_fao_evapotranspiration": "mm",
+      "precipitation_sum": "mm",
+      "pressure_msl_mean": "hPa",
+      "relative_humidity_2m_mean": "%",
+      "shortwave_radiation_sum": "MJ/m^2",
+      "surface_pressure_mean": "hPa",
+      "temperature_2m_max": "degC",
+      "temperature_2m_mean": "degC",
+      "temperature_2m_min": "degC",
+      "wind_direction_10m_dominant": "degrees",
+      "wind_speed_10m_max": "km/h"
+    },
+    "verified": false
+  },
+  "D5": {
+    "coverage": {
+      "dmi": [
+        "1870-01-01",
+        "2026-05-01"
+      ],
+      "nino34": [
+        "1948-01-01",
+        "2026-10-01"
+      ],
+      "omi": [
+        "1991-01-01",
+        "2026-06-24"
+      ],
+      "soi": [
+        "1951-01-01",
+        "2026-07-01"
+      ]
+    },
+    "fetched_utc": "2026-11-09T21:10:13Z",
+    "files": [
+      {
+        "bytes": 46216,
+        "md5": "75d98bcfc6f1d8acf516478adbb601b0",
+        "path": "data/raw/d5_indices/monthly.csv"
+      },
+      {
+        "bytes": 475242,
+        "md5": "74292ba1e5def65df35535480ffbd6bb",
+        "path": "data/raw/d5_indices/omi.csv"
+      }
+    ],
+    "licence": "NOAA PSL public data; cite NOAA Physical Sciences Laboratory",
+    "note": "DEVIATION: MJO is the NOAA OMI index, not the BoM RMM index named in the plan, because bom.gov.au blocks automated downloads.",
+    "source": "https://psl.noaa.gov (nina34.anom.data, soi.data, dmi.had.long.data, mjo/mjoindex/omi.1x.txt)",
+    "verified": true
+  }
+}
