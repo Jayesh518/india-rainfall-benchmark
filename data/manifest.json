@@ -1976,6 +1976,23 @@
     "stations": 34,
     "verified": true
   },
+  "D3H": {
+    "fetched_utc": "2026-11-10T11:47:16Z",
+    "files": 816,
+    "licence": "NASA POWER: open data, cite NASA LaRC POWER Project",
+    "note": "Hourly, UTC, 2001-2024, 34 stations; native units",
+    "source": "https://power.larc.nasa.gov/api/temporal/hourly/point",
+    "variables": {
+      "ALLSKY_SFC_SW_DWN": "W/m^2",
+      "PRECTOTCORR": "mm/hr",
+      "PS": "kPa",
+      "QV2M": "g/kg",
+      "RH2M": "%",
+      "T2M": "degC",
+      "WS10M": "m/s"
+    },
+    "verified": true
+  },
   "D4": {
     "end": 2024,
     "era5_cells": {
@@ -2080,6 +2097,39 @@
       "temperature_2m_min": "degC",
       "wind_direction_10m_dominant": "degrees",
       "wind_speed_10m_max": "km/h"
+    },
+    "verified": false
+  },
+  "D4H": {
+    "fetched_utc": "2026-11-10T11:53:24Z",
+    "files": [],
+    "licence": "Free for non-commercial use; cite Zippenfenig (2023) DOI 10.5281/ZENODO.7970649 and 'Generated using Copernicus Climate Change Service information'",
+    "note": "ERA5 hourly, UTC, 5-year chunks. STOPPED: Daily API request limit exceeded. Please try again tomorrow.",
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "stations_requested": [
+      "Ahmedabad",
+      "Chandigarh",
+      "Delhi",
+      "Jaipur",
+      "Jodhpur",
+      "Mumbai",
+      "Nagpur",
+      "Pune",
+      "Surat",
+      "Kolkata",
+      "Chennai",
+      "Guwahati"
+    ],
+    "variables": {
+      "cloud_cover": "%",
+      "dew_point_2m": "degC",
+      "precipitation": "mm",
+      "pressure_msl": "hPa",
+      "relative_humidity_2m": "%",
+      "shortwave_radiation": "W/m^2",
+      "surface_pressure": "hPa",
+      "temperature_2m": "degC",
+      "wind_speed_10m": "km/h"
     },
     "verified": false
   },

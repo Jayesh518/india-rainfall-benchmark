@@ -32,8 +32,11 @@ def main() -> int:
                  "HGT500", "UGRD850", "VGRD850", "UGRD200", "VGRD200", "wspd10", "wspd850",
                  "wspd200", "shear", "thick", "lapse"]
     out = g[mean_cols].mean()
-    out["APCP"] = g["APCP"].sum()
-    out["APCP_max6h"] = g["APCP"].max()
+    # APCP: only the 06Z/12Z/18Z stamps of d-1. If an APCP stamp means "accumulation over the
+    # NEXT 6 h", the 00Z(d) stamp would cover 00-06Z, 3 h inside the next IMD day (leak).
+    safe = d2[d2["time"].dt.hour != 0].groupby(["station", "date"])["APCP"]
+    out["APCP"] = safe.sum()
+    out["APCP_max6h"] = safe.max()
     out["MSLP_d6"] = g["MSLP"].last() - g["MSLP"].first()
     out = out[n == 4].add_prefix("i_").reset_index()
     out = out[(out["date"] >= "1990-01-01") & (out["date"] <= "2020-12-31")]
