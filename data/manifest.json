@@ -1775,7 +1775,8 @@
       }
     ],
     "interim": "d2_station_6h.parquet",
-    "licence": "Upstream IMDAA is CC BY-NC-SA 4.0; no licence file ships with the copy (unverified). Attribute NCMRWF/MoES.",
+    "licence": "IMDAA is free for educational and academic research under CC BY-NC-SA 4.0 (stated by the owner 2026-11-12; the upstream page was not checked by the tool). Non-commercial, attribute NCMRWF/MoES, share derivatives alike. Raw and derived IMDAA data are not redistributed.",
+    "licence_status": "owner-stated, not independently verified",
     "note": "1.08 deg (32x32) 6-hourly, 1990-2020 (T2m to 2023). Bilinear sampling at 34 stations. Not the 12 km IMDAA of the plan.",
     "source": "IndiaWeatherBench IMDAA copy (Kaggle, hand-downloaded by the owner); upstream NCMRWF IMDAA",
     "stations": 34,
@@ -2100,25 +2101,501 @@
     },
     "verified": false
   },
-  "D4H": {
-    "fetched_utc": "2026-11-10T11:53:24Z",
+  "D4C": {
+    "failed": 1,
+    "fetched_utc": "2026-11-12T05:23:29Z",
     "files": [],
+    "licence": "CC-BY; 'Generated using Copernicus Climate Change Service information' (Hersbach et al. 2023, doi:10.24381/cds.adbb2d47)",
+    "note": "Hourly ERA5, 0.25 deg, UTC stamps, nearest cell to each station.",
+    "source": "https://cds.climate.copernicus.eu (reanalysis-era5-single-levels)",
+    "variables": [
+      "2m_temperature",
+      "2m_dewpoint_temperature",
+      "surface_pressure",
+      "mean_sea_level_pressure",
+      "total_cloud_cover",
+      "10m_u_component_of_wind",
+      "10m_v_component_of_wind",
+      "total_precipitation",
+      "surface_solar_radiation_downwards"
+    ],
+    "verified": false
+  },
+  "D4H": {
+    "fetched_utc": "2026-11-12T09:13:16Z",
+    "files": [
+      {
+        "bytes": 757694,
+        "md5": "cf5538eb5374182ef8231ecb8117211a",
+        "path": "data/raw/d4_era5_hourly/Ahmedabad_2001.parquet"
+      },
+      {
+        "bytes": 758082,
+        "md5": "bda96ceb1605ad88ed485abea9aa3ede",
+        "path": "data/raw/d4_era5_hourly/Ahmedabad_2006.parquet"
+      },
+      {
+        "bytes": 753558,
+        "md5": "bf6d29f272f93f5f768147bb8f991262",
+        "path": "data/raw/d4_era5_hourly/Ahmedabad_2011.parquet"
+      },
+      {
+        "bytes": 755840,
+        "md5": "a617906df85d1135fb75a9454562418b",
+        "path": "data/raw/d4_era5_hourly/Ahmedabad_2016.parquet"
+      },
+      {
+        "bytes": 609320,
+        "md5": "df9410a18865504e8af159ada6d99697",
+        "path": "data/raw/d4_era5_hourly/Ahmedabad_2021.parquet"
+      },
+      {
+        "bytes": 764780,
+        "md5": "f9ebb16388b1001b16550201547c75e7",
+        "path": "data/raw/d4_era5_hourly/Chandigarh_2001.parquet"
+      },
+      {
+        "bytes": 764450,
+        "md5": "af83641a8ad7278191c37610be9f1644",
+        "path": "data/raw/d4_era5_hourly/Chandigarh_2006.parquet"
+      },
+      {
+        "bytes": 766744,
+        "md5": "5a4aab5c211ace32ec5f802cb4008cc7",
+        "path": "data/raw/d4_era5_hourly/Chandigarh_2011.parquet"
+      },
+      {
+        "bytes": 767006,
+        "md5": "84172e655b3253dcc6f0b481f27d2be2",
+        "path": "data/raw/d4_era5_hourly/Chandigarh_2016.parquet"
+      },
+      {
+        "bytes": 615737,
+        "md5": "191d631426ce4f322a6a1c1e4a8057d7",
+        "path": "data/raw/d4_era5_hourly/Chandigarh_2021.parquet"
+      },
+      {
+        "bytes": 737388,
+        "md5": "54f6609d2a207389833d69d7094efdcb",
+        "path": "data/raw/d4_era5_hourly/Chennai_2001.parquet"
+      },
+      {
+        "bytes": 743496,
+        "md5": "eab7cb60282ff2f1f57c3f7ad1d8c44b",
+        "path": "data/raw/d4_era5_hourly/Chennai_2006.parquet"
+      },
+      {
+        "bytes": 746150,
+        "md5": "65351c206062c4a6e65cb8920d69dbb6",
+        "path": "data/raw/d4_era5_hourly/Chennai_2011.parquet"
+      },
+      {
+        "bytes": 740945,
+        "md5": "948a9d26a376217c5d26a93f7db507df",
+        "path": "data/raw/d4_era5_hourly/Chennai_2016.parquet"
+      },
+      {
+        "bytes": 595132,
+        "md5": "eb01488d044b42f2562a3bb50edfa169",
+        "path": "data/raw/d4_era5_hourly/Chennai_2021.parquet"
+      },
+      {
+        "bytes": 761721,
+        "md5": "b2410228da7fa197edb0ba9d90363625",
+        "path": "data/raw/d4_era5_hourly/Dehradun_2001.parquet"
+      },
+      {
+        "bytes": 759619,
+        "md5": "de2927ed5f46d437d666527743fe34da",
+        "path": "data/raw/d4_era5_hourly/Dehradun_2006.parquet"
+      },
+      {
+        "bytes": 761356,
+        "md5": "259c0dd09cbd7fc03aaf0fda29b05372",
+        "path": "data/raw/d4_era5_hourly/Dehradun_2011.parquet"
+      },
+      {
+        "bytes": 762445,
+        "md5": "7295e6815c6d4abece4943a921c32121",
+        "path": "data/raw/d4_era5_hourly/Dehradun_2016.parquet"
+      },
+      {
+        "bytes": 611838,
+        "md5": "1c41ac2e84da3e3d8973ffd59fb70f39",
+        "path": "data/raw/d4_era5_hourly/Dehradun_2021.parquet"
+      },
+      {
+        "bytes": 759772,
+        "md5": "591fb2b621cb33fb5e038d92bf4ea847",
+        "path": "data/raw/d4_era5_hourly/Delhi_2001.parquet"
+      },
+      {
+        "bytes": 760578,
+        "md5": "9bccc6537dc4ae4a31b0d8c8a63efd2c",
+        "path": "data/raw/d4_era5_hourly/Delhi_2006.parquet"
+      },
+      {
+        "bytes": 762210,
+        "md5": "0504f3962bda17dd0b131661fac697ad",
+        "path": "data/raw/d4_era5_hourly/Delhi_2011.parquet"
+      },
+      {
+        "bytes": 762929,
+        "md5": "34acfe239962b7884c1e9993075452ab",
+        "path": "data/raw/d4_era5_hourly/Delhi_2016.parquet"
+      },
+      {
+        "bytes": 612809,
+        "md5": "478c19ec6b5e8e713eee7c6e48e871dd",
+        "path": "data/raw/d4_era5_hourly/Delhi_2021.parquet"
+      },
+      {
+        "bytes": 770214,
+        "md5": "fb84dd1fbcd6dc14e1ce1d108d3df786",
+        "path": "data/raw/d4_era5_hourly/Guwahati_2001.parquet"
+      },
+      {
+        "bytes": 772286,
+        "md5": "f4ee91c6bc6d6b80de1760b8e6622ff7",
+        "path": "data/raw/d4_era5_hourly/Guwahati_2006.parquet"
+      },
+      {
+        "bytes": 766334,
+        "md5": "c4fbcf732e631e96ada1c25414f9b2a2",
+        "path": "data/raw/d4_era5_hourly/Guwahati_2011.parquet"
+      },
+      {
+        "bytes": 771130,
+        "md5": "361107e757dbe2c5ffd76cef17593b2f",
+        "path": "data/raw/d4_era5_hourly/Guwahati_2016.parquet"
+      },
+      {
+        "bytes": 617622,
+        "md5": "007a7408c587188f0d1ae15a94efc252",
+        "path": "data/raw/d4_era5_hourly/Guwahati_2021.parquet"
+      },
+      {
+        "bytes": 759122,
+        "md5": "39a49cabfc6506ccace1e525c32ec200",
+        "path": "data/raw/d4_era5_hourly/Jaipur_2001.parquet"
+      },
+      {
+        "bytes": 760756,
+        "md5": "4900548e9d6358971b1f4dec8cb20c80",
+        "path": "data/raw/d4_era5_hourly/Jaipur_2006.parquet"
+      },
+      {
+        "bytes": 761089,
+        "md5": "0d01b8b73c475aa14f54640859cc47bc",
+        "path": "data/raw/d4_era5_hourly/Jaipur_2011.parquet"
+      },
+      {
+        "bytes": 763225,
+        "md5": "8e2333a93b915216cf1abb6e2a2d10eb",
+        "path": "data/raw/d4_era5_hourly/Jaipur_2016.parquet"
+      },
+      {
+        "bytes": 612930,
+        "md5": "bc54415984f76deaf3fda83dd5e351b5",
+        "path": "data/raw/d4_era5_hourly/Jaipur_2021.parquet"
+      },
+      {
+        "bytes": 756167,
+        "md5": "bdcb3caa72430254677d8b408b1738e8",
+        "path": "data/raw/d4_era5_hourly/Jodhpur_2001.parquet"
+      },
+      {
+        "bytes": 757109,
+        "md5": "a39f358f8f22236340f6a07bac31e8e4",
+        "path": "data/raw/d4_era5_hourly/Jodhpur_2006.parquet"
+      },
+      {
+        "bytes": 757695,
+        "md5": "0f6ca75e1d7b4cce3c0001bd65326145",
+        "path": "data/raw/d4_era5_hourly/Jodhpur_2011.parquet"
+      },
+      {
+        "bytes": 759289,
+        "md5": "ccdaf5b42d6326c28ade697acfd629b4",
+        "path": "data/raw/d4_era5_hourly/Jodhpur_2016.parquet"
+      },
+      {
+        "bytes": 609751,
+        "md5": "d1ef86728e98e388a64cff44c5c4d884",
+        "path": "data/raw/d4_era5_hourly/Jodhpur_2021.parquet"
+      },
+      {
+        "bytes": 769626,
+        "md5": "42672b336296ee2612fde25707a21ea2",
+        "path": "data/raw/d4_era5_hourly/Kolkata_2001.parquet"
+      },
+      {
+        "bytes": 764186,
+        "md5": "67a5a61cc3f6163e08604ef761eb98ae",
+        "path": "data/raw/d4_era5_hourly/Kolkata_2006.parquet"
+      },
+      {
+        "bytes": 769126,
+        "md5": "d11b224a3ceb3509daca1b50b6951d1e",
+        "path": "data/raw/d4_era5_hourly/Kolkata_2011.parquet"
+      },
+      {
+        "bytes": 767178,
+        "md5": "23eb105f977ab8806a4be003f21264ae",
+        "path": "data/raw/d4_era5_hourly/Kolkata_2016.parquet"
+      },
+      {
+        "bytes": 615973,
+        "md5": "0980d03e2591bb36975261fc89855fd7",
+        "path": "data/raw/d4_era5_hourly/Kolkata_2021.parquet"
+      },
+      {
+        "bytes": 772843,
+        "md5": "a29278b444babf13ea2564b3f7aac3a8",
+        "path": "data/raw/d4_era5_hourly/Leh_2001.parquet"
+      },
+      {
+        "bytes": 775234,
+        "md5": "f6107d14ead493b37e45772017dfdc64",
+        "path": "data/raw/d4_era5_hourly/Leh_2006.parquet"
+      },
+      {
+        "bytes": 775274,
+        "md5": "165be4939c1991be55a7f2267df31296",
+        "path": "data/raw/d4_era5_hourly/Leh_2011.parquet"
+      },
+      {
+        "bytes": 778397,
+        "md5": "b6e6d0ec0be26b71a5592def4d987c19",
+        "path": "data/raw/d4_era5_hourly/Leh_2016.parquet"
+      },
+      {
+        "bytes": 626707,
+        "md5": "0f315083c8c50ca66553f20d8412b283",
+        "path": "data/raw/d4_era5_hourly/Leh_2021.parquet"
+      },
+      {
+        "bytes": 762089,
+        "md5": "3ccdab4b11b76969dc5a9c0db38a86a7",
+        "path": "data/raw/d4_era5_hourly/Lucknow_2001.parquet"
+      },
+      {
+        "bytes": 760989,
+        "md5": "2eeaa541b1a59a7cdbdeed6569a33375",
+        "path": "data/raw/d4_era5_hourly/Lucknow_2006.parquet"
+      },
+      {
+        "bytes": 762911,
+        "md5": "77439448667653b36fcb7dfcfcac1c71",
+        "path": "data/raw/d4_era5_hourly/Lucknow_2011.parquet"
+      },
+      {
+        "bytes": 764358,
+        "md5": "1580d321410edc98f6776cc2863652e4",
+        "path": "data/raw/d4_era5_hourly/Lucknow_2016.parquet"
+      },
+      {
+        "bytes": 614549,
+        "md5": "0f2a448f7290bf2aab7a5e1bd315a870",
+        "path": "data/raw/d4_era5_hourly/Lucknow_2021.parquet"
+      },
+      {
+        "bytes": 742179,
+        "md5": "434112c2fba2f24ecff9d2b9bc919753",
+        "path": "data/raw/d4_era5_hourly/Mumbai_2001.parquet"
+      },
+      {
+        "bytes": 749875,
+        "md5": "1f6a848893c86d36b57e1cd3b9cb546b",
+        "path": "data/raw/d4_era5_hourly/Mumbai_2006.parquet"
+      },
+      {
+        "bytes": 742262,
+        "md5": "9e3e401bff963d80efdab8d9db2f1048",
+        "path": "data/raw/d4_era5_hourly/Mumbai_2011.parquet"
+      },
+      {
+        "bytes": 743620,
+        "md5": "9ee9792fc360e7b66b6f6954fa804e44",
+        "path": "data/raw/d4_era5_hourly/Mumbai_2016.parquet"
+      },
+      {
+        "bytes": 598299,
+        "md5": "58c7dff462408e5819ab5aba0d49dcbe",
+        "path": "data/raw/d4_era5_hourly/Mumbai_2021.parquet"
+      },
+      {
+        "bytes": 763190,
+        "md5": "7245421ea91080d41a2d0511e9266a36",
+        "path": "data/raw/d4_era5_hourly/Nagpur_2001.parquet"
+      },
+      {
+        "bytes": 764602,
+        "md5": "5c874b2b9cea2b03f417267d7cbfe440",
+        "path": "data/raw/d4_era5_hourly/Nagpur_2006.parquet"
+      },
+      {
+        "bytes": 758728,
+        "md5": "7a0c608de7fb446712a690dd7dfbf7f9",
+        "path": "data/raw/d4_era5_hourly/Nagpur_2011.parquet"
+      },
+      {
+        "bytes": 759724,
+        "md5": "213eaa3f520acde89744e6e840c13cf0",
+        "path": "data/raw/d4_era5_hourly/Nagpur_2016.parquet"
+      },
+      {
+        "bytes": 608853,
+        "md5": "ac0859ff25e1a5c15ac8c80676af5f06",
+        "path": "data/raw/d4_era5_hourly/Nagpur_2021.parquet"
+      },
+      {
+        "bytes": 767377,
+        "md5": "7ce41ca908f768c052f688c1d3b86adb",
+        "path": "data/raw/d4_era5_hourly/Patna_2001.parquet"
+      },
+      {
+        "bytes": 765021,
+        "md5": "457e0f4fa659fcd1aa2b69ed07513239",
+        "path": "data/raw/d4_era5_hourly/Patna_2006.parquet"
+      },
+      {
+        "bytes": 766542,
+        "md5": "5d0e1fbced9bb522d8fa12c0a70e74ef",
+        "path": "data/raw/d4_era5_hourly/Patna_2011.parquet"
+      },
+      {
+        "bytes": 768232,
+        "md5": "60258e1384036f42de48e1f6685d1c54",
+        "path": "data/raw/d4_era5_hourly/Patna_2016.parquet"
+      },
+      {
+        "bytes": 753941,
+        "md5": "6bfffeb59f5fda763457ed48c7be111f",
+        "path": "data/raw/d4_era5_hourly/Pune_2001.parquet"
+      },
+      {
+        "bytes": 759502,
+        "md5": "4bb02fe7cf4ee472728b653f71e315e5",
+        "path": "data/raw/d4_era5_hourly/Pune_2006.parquet"
+      },
+      {
+        "bytes": 755679,
+        "md5": "8b6ae4f45a1221c0aff26e1a75d0a7a0",
+        "path": "data/raw/d4_era5_hourly/Pune_2011.parquet"
+      },
+      {
+        "bytes": 751876,
+        "md5": "4388ef9de7523efed3f60eb249b14577",
+        "path": "data/raw/d4_era5_hourly/Pune_2016.parquet"
+      },
+      {
+        "bytes": 604737,
+        "md5": "14635d53d8d74842399943b47f06df61",
+        "path": "data/raw/d4_era5_hourly/Pune_2021.parquet"
+      },
+      {
+        "bytes": 761356,
+        "md5": "23128951e74e621e16c69a4560596913",
+        "path": "data/raw/d4_era5_hourly/Shimla_2001.parquet"
+      },
+      {
+        "bytes": 759671,
+        "md5": "5e0db4c7d72574cc2747b302bc8852c3",
+        "path": "data/raw/d4_era5_hourly/Shimla_2006.parquet"
+      },
+      {
+        "bytes": 763520,
+        "md5": "85759b0be1fe8b5932af4b93f2e9ac5a",
+        "path": "data/raw/d4_era5_hourly/Shimla_2011.parquet"
+      },
+      {
+        "bytes": 764049,
+        "md5": "b2fbea1dd1ed88f01b7d28aaf47549de",
+        "path": "data/raw/d4_era5_hourly/Shimla_2016.parquet"
+      },
+      {
+        "bytes": 612780,
+        "md5": "af4f812b4b6a550718517d926ca77427",
+        "path": "data/raw/d4_era5_hourly/Shimla_2021.parquet"
+      },
+      {
+        "bytes": 764449,
+        "md5": "cf9761ad9defc1b0bcb11bc3dd6c32d8",
+        "path": "data/raw/d4_era5_hourly/Srinagar_2001.parquet"
+      },
+      {
+        "bytes": 762238,
+        "md5": "845f275adb1496a86fa96ef1ca29e70a",
+        "path": "data/raw/d4_era5_hourly/Srinagar_2006.parquet"
+      },
+      {
+        "bytes": 762594,
+        "md5": "66a8af66507d8662e8e1ead777c3356d",
+        "path": "data/raw/d4_era5_hourly/Srinagar_2011.parquet"
+      },
+      {
+        "bytes": 762807,
+        "md5": "9a3f855602beea2207c7d9f71050d93c",
+        "path": "data/raw/d4_era5_hourly/Srinagar_2016.parquet"
+      },
+      {
+        "bytes": 612226,
+        "md5": "3af67fce6785983803461a97dbf29f65",
+        "path": "data/raw/d4_era5_hourly/Srinagar_2021.parquet"
+      },
+      {
+        "bytes": 749511,
+        "md5": "0a51f0a59a50f5e056d27390da34c64c",
+        "path": "data/raw/d4_era5_hourly/Surat_2001.parquet"
+      },
+      {
+        "bytes": 748425,
+        "md5": "98f7c2ce2788fd659c8c052d13b4c397",
+        "path": "data/raw/d4_era5_hourly/Surat_2006.parquet"
+      },
+      {
+        "bytes": 747840,
+        "md5": "061660345047c2975d16414bc05af43c",
+        "path": "data/raw/d4_era5_hourly/Surat_2011.parquet"
+      },
+      {
+        "bytes": 743431,
+        "md5": "b8abe55809f3f9334f1cf66012a75aa5",
+        "path": "data/raw/d4_era5_hourly/Surat_2016.parquet"
+      },
+      {
+        "bytes": 602022,
+        "md5": "ab1785bcdac7195be48ddc5b5409c4df",
+        "path": "data/raw/d4_era5_hourly/Surat_2021.parquet"
+      }
+    ],
     "licence": "Free for non-commercial use; cite Zippenfenig (2023) DOI 10.5281/ZENODO.7970649 and 'Generated using Copernicus Climate Change Service information'",
     "note": "ERA5 hourly, UTC, 5-year chunks. STOPPED: Daily API request limit exceeded. Please try again tomorrow.",
     "source": "https://archive-api.open-meteo.com/v1/archive",
     "stations_requested": [
-      "Ahmedabad",
-      "Chandigarh",
-      "Delhi",
-      "Jaipur",
-      "Jodhpur",
-      "Mumbai",
-      "Nagpur",
-      "Pune",
-      "Surat",
-      "Kolkata",
-      "Chennai",
-      "Guwahati"
+      "Hyderabad",
+      "Bengaluru",
+      "Lucknow",
+      "Patna",
+      "Bhopal",
+      "Raipur",
+      "Bhubaneswar",
+      "Visakhapatnam",
+      "Kochi",
+      "Ranchi",
+      "Indore",
+      "Dehradun",
+      "Madurai",
+      "Coimbatore",
+      "Thiruvananthapuram",
+      "Imphal",
+      "Agartala",
+      "Shillong",
+      "Gangtok",
+      "Shimla",
+      "Srinagar",
+      "Leh"
     ],
     "variables": {
       "cloud_cover": "%",
